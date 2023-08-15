@@ -1,0 +1,38 @@
+.navbar-background {
+    background-image: url("./assets/images/peter-olexa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+  }
+
+  .navbar-link:hover{
+    font-weight: 700;
+    font-size: 16px;
+    color: skyblue !important;
+    transition-duration: 0.5s;
+  }
+
+  .footer-link:hover{
+    font-weight: 700;
+    font-size: 16px;
+    color: skyblue !important;
+    transition-duration: 0.5s;
+  }
+
+  .gradient-background {
+    background: linear-gradient(300deg, #73BBC9, #4F709C, #213555);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
